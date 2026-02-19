@@ -34,7 +34,7 @@ class Diagnostics:
 
             # Xray depends on TBorCancer
             ('Xray', 'TBorCancer',
-             {True: 0.98, False: 0.05}),
+             {True: 0.99, False: 0.05}),
 
             # Dyspnea depends on TBorCancer and Bronchitis
             ('Dyspnea', 'TBorCancer Bronchitis',
